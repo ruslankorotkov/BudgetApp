@@ -14,5 +14,4 @@ public class FirstController {
     public String page(@RequestParam String page){
         return "Page:" + page;
     }
-
 }
