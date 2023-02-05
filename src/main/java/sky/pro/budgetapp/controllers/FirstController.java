@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FirstController {
     @GetMapping
-    public String hellowWeb(){
+    public String hellowWeb() {
         return "Привет Web!";
     }
 //    @GetMapping("/path/to/page")

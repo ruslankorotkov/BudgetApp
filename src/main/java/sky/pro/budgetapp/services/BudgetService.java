@@ -2,5 +2,8 @@ package sky.pro.budgetapp.services;
 
 public interface BudgetService {
     double getDailyBydget();
-    double getBalance();
+
+    double getBalanceMonch();
+
+    double getBalanceYear();
 }
