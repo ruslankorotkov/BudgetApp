@@ -10,8 +10,8 @@ public class FirstController {
     public String hellowWeb(){
         return "Привет Web!";
     }
-    @GetMapping("/path/to/page")
-    public String page(@RequestParam String page){
-        return "Page:" + page;
-    }
+//    @GetMapping("/path/to/page")
+//    public String page(@RequestParam String page){
+//        return "Page:" + page;
+//    }
 }
