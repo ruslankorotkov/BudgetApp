@@ -6,4 +6,5 @@ public interface BudgetService {
     double getBalanceMonch();
 
     double getBalanceYear();
+    double getBalance();
 }
